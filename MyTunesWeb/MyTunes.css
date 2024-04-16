@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Page1css */
+
+
+.page1{
+    height: 100vh;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navparent{
+    background-color: rgb(51,51,51);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 38px;
+    width: 100%;
+}
+.navigation{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+.navitems{
+    padding: 5px;
+    display: flex;
+    width: 80px;
+    height: 35px;
+    justify-content: space-around;
+    align-items: center;
+}
+.navanch{
+    text-decoration: none;
+    color: white;
+}
+.navitems:hover{
+    background-color: rgb(0, 0, 0);
+}
+#pg1cnt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 225px;
+}
+#prt1{
+    font-size: calc(50px);
+    font-weight: 900;
+}
+#prt2{
+    font-size: xx-large;
+    padding: 45px;
+}
+#prt3{
+    line-height: 35px;
+    padding: 0px 50px;
+    font-size: large;
+}
+
+/* page2css */
+
+.page2{
+    height: 200vh;
+    background-color: rgb(37,37,41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#para1{
+    font-weight: 500;
+    font-size: calc(45px);
+    padding: 40px;
+}
+#para2{
+    font-size: calc(35px);
+    font-weight: 500;
+}
+#para3{
+    font-weight: 500;
+    padding: 35px 80px;
+    font-size: larger;
+}
+#stbtn{
+    text-decoration: none;
+    color: white;
+}
+#pg2btn{
+    background-color: rgb(191, 29, 29);
+    font-size: medium;
+    height: 55px;
+    width: 160px;
+}
+#pg2btn:hover{
+    background-color: red;
+}
+#para5{
+    font-size: medium;
+    padding: 25px;
+}
+#pg2img{
+     height: 700px;
+}
+
+/* page3css */
+
+.page3{
+    background-color: whitesmoke;
+    height: 220vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#line1{
+    font-weight: 500;
+    font-size: calc(35px);
+    padding-top: 70px;
+}
+#line2{
+    font-weight: 500;
+    padding: 35px 80px;
+    font-size: larger;
+    line-height: 35px;
+}
+#readmore{
+    text-decoration: none;
+    color: white;
+}
+#pg3btn{
+    background-color: rgb(9, 9, 106);
+    font-size: medium;
+    height: 55px;
+    width: 100px;
+}
+#pg3btn:hover{
+    background-color: blue;
+}
+#readmore{
+    text-decoration: none;
+    color: white;
+}
+#pg3img{
+    padding-top: 5px;
+}
+
+/* Page4css */
+
+.page4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 90vh;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pg4tns{
+    color: white;
+    text-align: center;
+}
+#no1{
+    padding-top: 150px;
+    font-weight: 500;
+    font-size: calc(40px);
+}
+#no2{
+    padding: 65px;
+    font-weight: 400;
+    font-size: calc(20px);
+    line-height: 30px;
+}
+
+/* Page5css */
+
+.page5{
+    margin: 0px;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#pg5no1, #pg5no2{
+    width: 50%;
+}
+#pg5no1{
+    padding: 35px 0px 45px 80px;
+}
+#head{
+    padding-top: 55px;
+    /* font-weight: 500; */
+    font-size: calc(20px);
+}
+#body{
+    padding: 25px 95px 25px 0px;
+    font-weight: 400;
+    font-size: large;
+    line-height: 30px;
+}
+#bottom{
+    padding: 0px 85px 25px 0px;
+    font-weight: 400;
+    font-size: large;
+}
+#emtline{
+    width: 530px;
+}
+#rightup{
+    font-weight: 900;
+}
+#redeemanch{
+    text-decoration: none;
+}
+#redeem{
+    margin-top: 25px;
+    border: none;
+    color: rgb(43, 13, 71);
+    font-weight: 500;
+    font-size: medium;
+}
+
+
+/* Page6css */
+
+.page6{
+    background-color: rgb(37,37,41);
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 55px;
+}
+.box{
+    color: white;
+    height: 200px;
+    width: 250px;
+}
+.linlast{
+    border-color: gray;
+}
+ul{
+    padding-top: 15px;
+}
+li{
+    font-weight: 100;
+    list-style: none;
+    line-height: 25px;
+}
+.topic{
+    font-weight: 200;
+    padding: 0px 0px 15px 0px;
+}
+
+/* LastPagecss */
+
+.footer{
+    height: 10vh;
+    color: white;
+    background-color: rgb(51,51,51);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+.txt{
+    padding-top: 10px;
+}
+
+            /* FINISH */
